@@ -9,7 +9,7 @@
     "restart": "pm2 restart ASITHA-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "latest",
+    "@whiskeysockets/baileys": "git+https://github.com/rdpmjsing/Baileys-btn.git",
     "@adiwajshing/keyed-db": "latest",
     "pino": "latest",
     "pm2": "latest",
@@ -60,7 +60,7 @@
     "sharp":"^0.32.6",
     "acrcloud":"latest",
     "xml2js":"0.6.2",
-    "jimp": "^0.16.1",
+    "jimp": "^0.22.12",
     "cricketlive": "latest"
   }
 }
